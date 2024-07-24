@@ -120,10 +120,20 @@ color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
 }
-.Books button:hover{
+button:hover{
     font-size: larger;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
 }
 
+button:active{
+    color: white;
+    background-color: #000;
+}
+nav a:hover{
+    color: white;
+}
 /* Books Collection */
 .card-group{
     display: flex;
