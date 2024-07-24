@@ -20,6 +20,8 @@ nav{
     justify-content: space-evenly;
     position: sticky;
     top: 0;
+    background-color: #9f9b9b;
+    padding-bottom: 20px;
 }
 nav a{
     color: blue;
@@ -64,6 +66,111 @@ section p{
 }
 
 
+
+/* best selling */
+.best-sellings{
+    padding-top: 20px;
+}
+.best-sellings h3{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.group-cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.Books{
+    height: 350px;
+    border: 2px solid black;
+    background-color: #e5edf3;border-radius: 5px;
+    padding-bottom: 10px;
+
+}
+.Books img{
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    fill-opacity: (0.9);
+}
+.group-cards h6{
+position: relative;
+top: 120px;
+text-align: center;
+padding: 10px;
+font-weight: bolder;
+font-size: larger;
+}
+.Books button{
+    background-color: #21242539;
+    color: rgb(255, 255, 255);
+    width: 10vw;
+    height: 7vh;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -120px;
+    border: none;
+    cursor: pointer;
+}
+.Books button:hover{
+    font-size: larger;
+}
+
+/* Books Collection */
+.card-group{
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: 30px
+}
+#Books{
+    position: relative;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: x-large;
+}
+.card-group .card{
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    background-color: #e5edf3;
+    margin: 10px;
+    border: 1px solid#436E92;
+}
+.card-img-top{
+    width: 323px;
+    height: 300px;
+}
+
+.card .card-body{
+    background-color: #373b3e9e;
+}
+.card-body .card-title{
+    background-color: #373b3e9e;
+    color: white;
+    text-align: center;
+    height: 60px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.card button{
+    background-color: #373b3e9e;
+    color: rgb(255, 255, 255);
+    height: 7vh;
+    width: 10vw;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
 /* for mobile apps */
 @media(max-width : 420px){
     figue{
@@ -106,5 +213,77 @@ section p{
         font-size: smaller;
         padding-top: 10px;
     }
+/* best sellers */
+.Books-group{
+    display: grid;
+    margin-left: 10px;
+
+}
+.Books{
+    margin-bottom: 20px;
 }
 
+.Books img{
+    width: 300pc;
+    height: 350px;
+}
+.Books button{
+    width: 20vw;
+    height: 5vh;
+    display: block;
+    margin: 0 auto;
+}
+
+/* books collection */
+.card-group{
+    display: grid;
+    margin-left: 22px;
+}
+.card-group .card{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width: 320px;
+    height: 470px;
+    margin-left: -2px;
+}
+.card .card-title{
+    height: 40px;
+    font-size: small;
+    padding-top: 3px;
+}
+.card button{
+    background-color: #373b3e9e;
+    color: rgb(255, 255, 255);
+    width: 20vw;
+    height: 5vh;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+}
+
+/* Connect */
+.connect{
+    margin-top: 50px;
+    background-color: #e5edf3;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+} 
+.connect h3{
+    position: relative;
+    bottom: 80px;
+    padding-bottom: 20px;
+    background-color: #e5edf3;
+}
+.connect svg{
+    position: relative;
+    bottom: 95px;
+    width: 40px;
+    height: 40px;
+    background-color: #e5edf3;
+}
