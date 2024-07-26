@@ -41,9 +41,10 @@ nav a{
     rotate: 0deg;
     position: relative;
     top: 30px;
-    left: -40px;
+    left: 100px;
     width: 400px;
 }
+
 .home div{
     padding-top: 100px;
 }
@@ -51,6 +52,7 @@ nav a{
     font-size: 40px;
     font-weight: 800;
 }
+
 .home input{
     width: 250px;
     height: 50px;
@@ -71,17 +73,19 @@ section{
 section p{
     padding-top: 30px;
 }
-
-
+section p:hover{
+    color: #436E92;
+}
 
 /* best selling */
 .best-sellings{
     padding-top: 20px;
 }
-.best-sellings h3{
+.best-selling h3{
     padding-top: 30px;
     padding-left: 10px;
     padding-bottom: 20px;
+    ;
 }
 
 .group-cards{
@@ -103,18 +107,18 @@ section p{
     fill-opacity: (0.9);
 }
 .group-cards h6{
-position: relative;
-top: -120px;
-text-align: center;
-padding: 10px;
-font-weight: bolder;
-font-size: larger;
-background-color: #21242539;
-color: rgb(255, 255, 255);
+    position: relative;
+    top: -120px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #00000039;
+    color: rgb(255, 255, 255);
 
 }
 .Books button{
-    background-color: #21242539;
+    background-color: #00000039;
     color: rgb(255, 255, 255);
     width: 10vw;
     height: 7vh;
@@ -124,9 +128,12 @@ color: rgb(255, 255, 255);
     top: -120px;
     border: none;
     cursor: pointer;
+    
 }
 
 /* Hover effects */
+
+
 button:hover{
     font-size: larger;
     background-color: white;
@@ -140,6 +147,13 @@ button:active{
 nav a:hover{
     color: white;
 }
+.home h2:hover{
+    
+    color: rgb(110, 187, 231);
+}
+
+
+
 /* Books Collection */
 .card-group{
     display: flex;
@@ -185,7 +199,7 @@ nav a:hover{
     display: block;
     margin: 0 auto;
     border: none;
-    padding-top: 10px;
+    padding-top: 1px;
     margin-bottom: 10px;
 }
 
@@ -305,6 +319,7 @@ footer img{
     }
     figure img{
         width: 100px;
+        
     }
 
 /*  */home
@@ -323,10 +338,14 @@ footer img{
     .home h2{
         font-size: 10px;
     }
+    .home img{
+        margin-left: -150px;
+    }
     .home input{
         width: 100px;
         height: 20px;
         margin-top: 7px;
+        font-size: 10px;
     }  
     
     .best-selling{
